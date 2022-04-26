@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: exercise2
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/exercise
+    username: root
+    password:
+    initialization-mode: always
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
